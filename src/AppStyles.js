@@ -44,5 +44,51 @@ export const RecipeCard = StyleSheet.create({
   category: {
     marginTop: 5,
     marginBottom: 5
+  },
+
+  homeText: {
+    marginTop: '8%',
+    fontSize: '68px',
+    fontWeight: 'bold',
+    backgroundColor: 'black',
+    color: 'white',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+
+  homeTextContainer: {
+    justifyContent: 'left',
+    alignItems: 'center',
+  },
+
+  subText: {
+
+    marginTop: '8%',
+    fontSize: '48px',
+    fontWeight: 'bold',
+    backgroundColor: 'black',
+    color: 'white',
+    alignItems: 'center',
+    justifyContent: 'center'
+
+  },
+
+  startBtn: {
+    fontSize: '48px',
+    fontWeight: 'bold',
+    color: 'white',
+    textDecorationLine: 'underline',
+    textDecorationColor: 'red',
+  },
+
+  startBtnContainer: {
+    marginTop: '30%',
+    fontWeight: 'bold',
+    backgroundColor: 'black',
+    color: 'white',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 8 
   }
+
 });
